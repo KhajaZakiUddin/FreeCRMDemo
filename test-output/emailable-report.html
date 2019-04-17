@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Free CRM App Test Cases</td><td class="numi">11</td><td class="numi">11</td><td class="numi">0</td><td class="numi">0</td><td class="numi">360.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Free CRM App Test Cases &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.crm.qa.testcases.LoginPageTest</td><td><a href="#m1"><b>LoginTest</b> (Logging in) </a></td><td class="numi">1</td><td>1553219145180</td><td class="numi">16747</td></tr>
+<tr class="passedeven"><td rowspan="3">com.crm.qa.testcases.ContactsPageTest</td><td><a href="#m2"><b>createNewContactsTest</b>  </a></td><td class="numi">3</td><td>1553219387955</td><td class="numi">78011</td></tr><tr class="passedeven"><td><a href="#m3"><b>createNewContactsTest</b>  </a></td><td class="numi">3</td><td>1553219387955</td><td class="numi">78011</td></tr><tr class="passedeven"><td><a href="#m4"><b>createNewContactsTest</b>  </a></td><td class="numi">3</td><td>1553219387955</td><td class="numi">78011</td></tr>
+<tr class="passedodd"><td rowspan="1">com.crm.qa.testcases.LoginPageTest</td><td><a href="#m5"><b>loginPageTitleTest</b> (Title) </a></td><td class="numi">1</td><td>1553219133992</td><td class="numi">23</td></tr>
+<tr class="passedeven"><td rowspan="3">com.crm.qa.testcases.ContactsPageTest</td><td><a href="#m6"><b>selectMultipleContactsByNameTest</b>  </a></td><td class="numi">1</td><td>1553219354271</td><td class="numi">2496</td></tr><tr class="passedeven"><td><a href="#m7"><b>selectSingleContactsByNameTest</b>  </a></td><td class="numi">1</td><td>1553219316957</td><td class="numi">2143</td></tr><tr class="passedeven"><td><a href="#m8"><b>verifyContactsLabelTest</b>  </a></td><td class="numi">1</td><td>1553219291619</td><td class="numi">82</td></tr>
+<tr class="passedodd"><td rowspan="3">com.crm.qa.testcases.HomePageTest</td><td><a href="#m9"><b>verifyCorrectUsername</b>  </a></td><td class="numi">1</td><td>1553219261327</td><td class="numi">168</td></tr><tr class="passedodd"><td><a href="#m10"><b>verifyHomePageTitleTest</b>  </a></td><td class="numi">1</td><td>1553219198781</td><td class="numi">33</td></tr><tr class="passedodd"><td><a href="#m11"><b>verifyclickonContactslinkTest</b>  </a></td><td class="numi">1</td><td>1553219234001</td><td class="numi">2367</td></tr>
+</table>
+<h1>Free CRM App Test Cases</h1>
+<h2 id="m1">com.crm.qa.testcases.LoginPageTest:loginPageTitleTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.crm.qa.testcases.ContactsPageTest:createNewContactsTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>Miss</td>
+<td>Sonia</td>
+<td>Shenoy</td>
+<td>CNN</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.crm.qa.testcases.HomePageTest:verifyCorrectUsername</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">com.crm.qa.testcases.HomePageTest:verifyclickonContactslinkTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.crm.qa.testcases.ContactsPageTest:verifyContactsLabelTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">com.crm.qa.testcases.ContactsPageTest:selectSingleContactsByNameTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">com.crm.qa.testcases.ContactsPageTest:selectMultipleContactsByNameTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">com.crm.qa.testcases.ContactsPageTest:createNewContactsTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>Dr.</td>
+<td>Thanoj</td>
+<td>Kumar</td>
+<td>Google</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">com.crm.qa.testcases.LoginPageTest:LoginTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">com.crm.qa.testcases.HomePageTest:verifyHomePageTitleTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">com.crm.qa.testcases.ContactsPageTest:createNewContactsTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>Mr.</td>
+<td>Aditya</td>
+<td>Sachdev</td>
+<td>BBC</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>
